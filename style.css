@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  .sport1{
+    background-color: #E8EEEB;
+  }
+  
+  .sport2{
+    background-color: #379683;
+  }
+  .sport3{
+    background-color: #7395AE;
+  }
+  .sport4{
+    background-color: lightblue;
+  }
+  .sport5{
+    background-color: Tomato
+  }
+  .sport6{
+    background-color: #DFCBB0;
+  }
+  .sport7{
+    background-color: #FFCBA4;
+  }
+  .sport8{
+   background-color: #D2B48C;
+  }
+  .sport9{
+    background-color: #BC544B;
+  }
+  .sport10{
+    background-color:#BDDEEC;
+  }
+  *{
+    font-size:25px
+  }
+  .div1{
+    background-color: lavender;
+    width:700px;
+  }
+  .div2{
+    background-color: beige;
+  }
+  .div3{
+    background-color: #F4ABAA;
+  }
+  .div4{
+    background-color: #d3d3d3;
+  }
+  .div5{
+    background-color:#d0a872;
+  }
+  
+  img{
+    width:60%
+    
+  }
+  
+  
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .card{
+    width: 400px;
+    border-radius:15px;
+    box-shadow: 0 0 10px 10px rgba(128,128,128,0.5);
+      transition: all .4s ease-in-out;
+     border: 0px solid ;
+    margin-left:750px;
+    margin-top:40px;
+    padding:20px;
+    text-align: center;
+    
+  }
+  
+  #narrow:hover{
+    box-shadow: 0 0 10px 10px rgba(255,128,128,0.5);
+    cursor:pointer;
+    transform: scale(1.1,1.1);
+  }
+  .card2{
+    width: 700px;
+    border-radius:15px;
+    box-shadow: 0 0 2px 2px rgba(128,128,128,0.5);
+     border: 0px solid ;
+    margin:40px auto;
+    padding:20px;
+    text-align: center;
+    
+  }
+
+  a{
+    text-align: center;
+  
+    color: black;
+    text-decoration: none;
+    border: 3px solid black;
+  }
+  .header1{
+    font-size: 1rem;
+    color: black;
+    text-align: center;
+    margin-right: 50%;
+    margin-left: 30px;
+    bottom: 700px;
+  
+  }
+
+  table.c {
+    table-layout: auto;
+    width: 100%;  
+  }
+
+  #parent {
+    margin-top: 5px;
+    display: flex;
+    border-radius:15px;
+    border: 2px solid ;
+
+  }
+  #narrow {
+
+    width: 450px;
+    background: lightblue;
+    /* Just so it's visible */
+  }
+  #wide {
+    margin-right: 5px;
+    flex: 1;
+    /* Grow to rest of container */
+    background: lightgreen;
+    /* Just so it's visible */
+  }
+
+  a:link {
+    color: green;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: red;
+  }
+  
+  /* selected link */
+  a:active {
+    color: yellow;
+  }
+  
