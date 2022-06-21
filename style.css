@@ -58,6 +58,7 @@
     
   }
   
+  
   .container{
     display: flex;
     flex-wrap: wrap;
@@ -124,7 +125,7 @@
   }
   #narrow {
 
-    width: 575px;
+    width: 25%;
     margin-top:28px;
     
   }
